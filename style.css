@@ -1,0 +1,73 @@
+body {
+    margin : 0 auto;
+    width: 100vw;   
+    height: 100vh;
+    background-color: #F3FFE5;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.menu {
+    left: 10px;
+    top: 250px;
+    position: absolute;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 23px;
+    display: inline-flex"
+
+}
+  
+  
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin:0 20px;
+    position: relative;
+  }
+  
+.menu ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+  }
+  
+.menu ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #000000;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transform: 0.5s;
+  }
+  
+.menu ul li:hover::after{
+    width: 100%;
+  }
+
+.label .if-you-like-our-BTS {
+    position: absolute;
+
+    width: 862px;
+
+    top: 3200px;
+
+    left: 450px;
+
+    font-family: "Inria Serif", Helvetica;
+
+    font-weight: 400;
+    color: #000000;
+
+    font-size: 70px;
+
+    text-align: center;
+
+    letter-spacing: 0;
+
+    line-height: normal;
+
+}
